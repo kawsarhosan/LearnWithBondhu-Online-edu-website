@@ -1,0 +1,25 @@
+.counter{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.counter-div{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    box-shadow: 1px 5px 20px rgb(35 40 65 / 13%);
+    border-radius: 15px;
+    width: 80%;
+    
+}
+.count-content{
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+}
+.count-content h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.count-content p{
+    color: tomato;
+}

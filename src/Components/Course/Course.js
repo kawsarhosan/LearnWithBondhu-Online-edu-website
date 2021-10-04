@@ -8,7 +8,7 @@ const Course = (props) => {
                         
                 <div className="col">
 
-                    <div className='card-group h-100'>
+                    <div className='card-group h-100 shadow-sm'>
                     <div className="card h-100">
                     <img src={img} className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -19,7 +19,7 @@ const Course = (props) => {
                         <h5 className="card-title fw-bold custom-color">{title}</h5><br/>
                        <div className='card-footer d-flex justify-content-between align-items-center'>
                             <p className="card-text text-muted">By- {instructor}</p>
-                            <p><button className="btn custom-btn">Enroll Now</button></p>
+                            <p><button className="btn custom-btn2">Enroll Now</button></p>
                        </div>
                     </div>
                     </div>
