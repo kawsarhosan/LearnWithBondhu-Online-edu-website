@@ -17,7 +17,7 @@ const Instructors = () => {
            <div className="row row-cols-1 row-cols-md-3 g-4 my-4">
             {
                 Instructors.map(instructor => <Instructor
-                key={Instructor.name}
+                key={Instructor.id}
                 instructor={instructor}
                 ></Instructor>)
             }

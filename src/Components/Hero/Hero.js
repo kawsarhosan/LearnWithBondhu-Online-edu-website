@@ -4,7 +4,7 @@ import './Hero.css';
 const Hero = () => {
     return (
         <div className='container hero'>
-            <div className='d-flex justify-content-around align-items-center'>
+            <div className=' d-lg-flex justify-content-around align-items-center'>
                 <div >
                     <h1 className="fw-bold custom-color">Learn online,</h1>
                     <h5>Build your future in learing.</h5>

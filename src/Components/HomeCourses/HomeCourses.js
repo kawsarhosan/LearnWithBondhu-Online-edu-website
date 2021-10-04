@@ -18,14 +18,14 @@ const Courses = () => {
                 <hr/>
             </div>
            
-            <div class="row row-cols-1 row-cols-md-3 g-4 my-4">
+            <div className="row row-cols-1 row-cols-md-3 g-4 my-4">
             {
                 courses.map(course=> <Course
                 course={course}
                 ></Course>)
             }
             </div>
-            <Button href="courses" className='mx-auto d-block custom-btn border-0'>See more.</Button>
+            <Button className='mx-auto d-block custom-btn border-0'>See more.</Button>
         </div>
     );
 };
