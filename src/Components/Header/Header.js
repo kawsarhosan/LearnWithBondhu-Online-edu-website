@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 const Header = () => {
     return (
-        <Navbar className='fixed-top mb-5'  bg="myBg"  expand="lg">
+        <Navbar className='fixed-top'  bg="myBg"  expand="lg">
         <Container>
-          <Navbar.Brand className='fw-bold text-white' href="#"><img src="/logo.png"  alt="" /> LearnWithBondhu</Navbar.Brand>
+          <Navbar.Brand className='fw-bold text-white'><img src="/logo.png"  alt="" /> LearnWithBondhu</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -17,8 +17,8 @@ const Header = () => {
               navbarScroll
             >
               <Nav.Link><Link to="/home">Home</Link></Nav.Link>
-              <Nav.Link><Link to="/foods">Courses</Link></Nav.Link>
-              <Nav.Link><Link to="/services">Pricing</Link></Nav.Link>
+              <Nav.Link><Link to="/courses">Courses</Link></Nav.Link>
+              <Nav.Link><Link to="/instructors">Instructors</Link></Nav.Link>
               <Nav.Link><Link to="/contact">Contact</Link></Nav.Link>
               <Nav.Link><Link to="/about">About</Link></Nav.Link>
               
@@ -32,7 +32,7 @@ const Header = () => {
                 className="me-2 w-75"
                 aria-label="Search"
               />
-              <Button variant="outline-light">Search</Button>
+              <Button variant="" className='custom-btn  text-white'>Search</Button>
               
             </Form>
           </Navbar.Collapse>

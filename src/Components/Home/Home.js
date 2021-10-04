@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
+
 import Hero from '../Hero/Hero';
 import HomeCourses from '../HomeCourses/HomeCourses';
 import './Home.css'
@@ -14,7 +14,7 @@ const Home = () => {
             
             </div>
             
-        <Footer></Footer>
+        
         </div>
     );
 };

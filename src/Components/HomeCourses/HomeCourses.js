@@ -1,9 +1,9 @@
 import Button from 'react-bootstrap/Button';
 import React, { useEffect, useState } from 'react';
-import HomeCourse from '../HomeCourse/HomeCourse';
+import Course from '../Course/Course';
 import './HomeCourses.css';
 
-const HomeCourses = () => {
+const Courses = () => {
     const [courses, setCourses] =useState([]);
     useEffect(()=>{
         fetch('/fakadata2.json')
@@ -20,14 +20,14 @@ const HomeCourses = () => {
            
             <div class="row row-cols-1 row-cols-md-3 g-4 my-4">
             {
-                courses.map(course=> <HomeCourse
+                courses.map(course=> <Course
                 course={course}
-                ></HomeCourse>)
+                ></Course>)
             }
             </div>
-            <Button to="/courses" className='mx-auto d-block custom-btn border-0'>See more.</Button>
+            <Button href="courses" className='mx-auto d-block custom-btn border-0'>See more.</Button>
         </div>
     );
 };
 
-export default HomeCourses;
+export default Courses;

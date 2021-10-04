@@ -8,3 +8,6 @@
 .bg-myBg{
     background-color: #0AAB94;
 }
+.navbar{
+   box-shadow: 1px 1px 20px rgb(35 40 65 / 13%);
+}

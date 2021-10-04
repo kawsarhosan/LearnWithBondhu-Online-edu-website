@@ -9,6 +9,7 @@ const Hero = () => {
                     <h1 className="fw-bold custom-color">Learn online,</h1>
                     <h5>Build your future in learing.</h5>
                     <p className="text-muted">“We now accept the fact that learning is a lifelong<br/> process of keeping abreast of change. And the most<br/> pressing task is to teach people how to learn.”<br/> – Peter Drucker</p>
+                    <button className='btn custom-btn'>Enroll Now</button>
                 </div>
                 <div>
                     <img className="w-100" src="/img/hero/io2.png" alt="" />
