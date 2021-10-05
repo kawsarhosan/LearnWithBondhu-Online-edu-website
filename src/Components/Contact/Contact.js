@@ -7,7 +7,7 @@ const Contact = () => {
            <div className='bg-myBg text-center py-5 text-white fw-bold'>
                <h1 className='fw-bold'>Contact Us:</h1>
            </div>
-           <div className='shadow-sm container border rounded my-5 w-50 p-5 '>
+           <div className='shadow-sm container border rounded my-lg-5 w-lg-50 p-5 '>
             <Form>
                 {/* <!-- Name input --> */}
             <div className="form-outline mb-4">

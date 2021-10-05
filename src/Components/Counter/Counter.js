@@ -5,7 +5,7 @@ const Counter = () => {
     return (
         <div>
             <section className="counter">
-        <div className="counter-div custom-color2">
+        <div className="counter-div d-lg-flex justify-content-between custom-color2">
             <div className="count-content">
                 <h2>50125</h2>
                 <p>Students</p>
